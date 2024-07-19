@@ -1,20 +1,14 @@
-# cycletls 代理 api 服务
+# cycletls 本地代理服务
 
-用来解决`ja3`指纹识别问题，通过`cycletls`代理，可以实现`ja3`指纹的变化，从而绕过指纹识别
+针对`electron`无法集成`cycletls`的回退方案
 
-> cloudfare 通过 ja3 指纹识别，从而进行拦截
+> 用来解决 cloudfare`ja3`指纹识别问题，通过`cycletls`代理，可以实现`ja3`指纹的变化，从而绕过指纹识别
 
 ## 使用
 
 ### 安装 node
 
-先安装`nodejs`稳定版本
-
-- [nodejs 官网](https://nodejs.org/zh-cn/)
-
-```bash
-node -v # 输出对应版本号即安装成功
-```
+先安装`node`, 👉[node 官网](https://nodejs.org/zh-cn/)
 
 ### 一键开启服务
 
@@ -28,7 +22,7 @@ node -v # 输出对应版本号即安装成功
 ✨ CycletlsAPIServer running on http://localhost:33333
 ```
 
-如果一键开启失败，请使用下面手动开启服务👇
+如果一键开启失败，请使用下面手动开启服务 👇
 
 ### 手动开启服务
 
