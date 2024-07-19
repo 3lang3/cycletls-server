@@ -35,7 +35,7 @@ node -v # 输出对应版本号即安装成功
 下载源码解压，进入目录，执行如下命令
 
 ```bash
-npm i -g tyarn
-yarn
+npm i -g pnpm
+pnpm install
 npm start
 ```
