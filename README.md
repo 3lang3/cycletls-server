@@ -8,7 +8,7 @@
 
 先安装`nodejs`稳定版本
 
-- [nodejs](https://nodejs.org/zh-cn/)
+- [nodejs 官网](https://nodejs.org/zh-cn/)
 
 ```bash
 node -v # 输出对应版本号即安装成功
@@ -16,7 +16,9 @@ node -v # 输出对应版本号即安装成功
 
 ### 开启服务
 
-- `windows`直接双击`start.bat`即可
-- `mac`在项目根目录执行`sh start.sh`即可
+- `Win`系统: 直接双击`start.bat`即可
+- `Mac`系统: 在项目根目录执行`sh start.sh`即可
 
 > 脚本会自动安装依赖，如果安装失败，可以手动执行`npm install`安装依赖, 然后再执行`npm start`启动服务
+
+![start](https://private-user-images.githubusercontent.com/7098719/350312980-654cbfba-0b04-4d11-a50c-3322a2074346.png)
