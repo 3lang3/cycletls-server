@@ -1,3 +1,3 @@
-call npm install -g pnpm
-call pnpm install
+call npm install -g tyarn
+call tyarn
 call npm start
