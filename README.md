@@ -6,6 +6,8 @@
 
 ## 使用
 
+### 安装 node
+
 先安装`nodejs`稳定版本
 
 - [nodejs 官网](https://nodejs.org/zh-cn/)
@@ -14,14 +16,17 @@
 node -v # 输出对应版本号即安装成功
 ```
 
-### 开启服务
-
-- `Win`系统: 直接双击`start.bat`即可
-- `Mac`系统: 在项目根目录执行`sh start.sh`即可
-
-> 脚本会自动安装依赖，如果安装失败，可以手动执行`npm install`安装依赖, 然后再执行`npm start`启动服务
+### 安装依赖
 
 ```bash
+npm i -g tyarn
+yarn
+```
+
+### 开启服务
+
+```bash
+npm start
 # 成功启动后，会输出如下信息
 ✨ CycletlsAPIServer running on http://localhost:33333
 ```
