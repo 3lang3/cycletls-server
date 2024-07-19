@@ -16,17 +16,26 @@
 node -v # 输出对应版本号即安装成功
 ```
 
-### 安装依赖
+### 一键开启服务
+
+下载源码解压，进入目录
+
+- win 系统双击`start.bat`即可
+- mac 系统执行`sh start.sh`即可
+
+```bash
+# 成功启动后，会输出如下信息
+✨ CycletlsAPIServer running on http://localhost:33333
+```
+
+> 安装失败的话，请使用手动安装方式
+
+### 手动安装方式
+
+下载源码解压，进入目录，执行如下命令
 
 ```bash
 npm i -g tyarn
 yarn
-```
-
-### 开启服务
-
-```bash
 npm start
-# 成功启动后，会输出如下信息
-✨ CycletlsAPIServer running on http://localhost:33333
 ```
