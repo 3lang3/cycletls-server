@@ -21,4 +21,7 @@ node -v # 输出对应版本号即安装成功
 
 > 脚本会自动安装依赖，如果安装失败，可以手动执行`npm install`安装依赖, 然后再执行`npm start`启动服务
 
-![start](https://private-user-images.githubusercontent.com/7098719/350312980-654cbfba-0b04-4d11-a50c-3322a2074346.png)
+```bash
+# 成功启动后，会输出如下信息
+✨ CycletlsAPIServer running on http://localhost:33333
+```
