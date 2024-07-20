@@ -1,6 +1,8 @@
 # cycletls 本地转发服务
 
-针对`electron`无法集成`cycletls`的回退方案
+## 这是什么
+
+针对`electron`无法集成`cycletls`包的回退方案, 部分`脚本自动化`任务需要用到此服务, 例如[冒险岛](https://msu.io/), 需要用户手动开启服务
 
 > 用来解决 cloudfare`ja3`指纹识别问题，通过`cycletls`包实现转发代理模拟真实指纹变化，从而绕过指纹识别
 
