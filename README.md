@@ -18,7 +18,7 @@
 - `mac`系统: **项目目录**下执行`sh start.sh`即可
 
 ```bash
-# 成功启动后，会输出如下信息
+# 成功启动后，会输出如下信息, 任务结束前, 不要关闭窗口
 ✨ CycletlsAPIServer running on http://localhost:33333
 ```
 
