@@ -1,8 +1,8 @@
-# cycletls 本地代理服务
+# cycletls 本地转发服务
 
 针对`electron`无法集成`cycletls`的回退方案
 
-> 用来解决 cloudfare`ja3`指纹识别问题，通过`cycletls`代理，可以实现`ja3`指纹的变化，从而绕过指纹识别
+> 用来解决 cloudfare`ja3`指纹识别问题，通过`cycletls`包实现转发代理模拟真实指纹变化，从而绕过指纹识别
 
 ## 使用
 
@@ -12,7 +12,7 @@
 
 ### 一键开启服务
 
-下载源码解压，进入项目目录
+[下载源码](https://github.com/3lang3/cycletls-server/archive/refs/heads/main.zip)解压，进入项目目录
 
 - `win`系统: 双击`start.bat`即可
 - `mac`系统: **项目目录**下执行`sh start.sh`即可
@@ -26,7 +26,7 @@
 
 ### 手动开启服务
 
-下载源码解压，进入目录，执行如下命令
+[下载源码](https://github.com/3lang3/cycletls-server/archive/refs/heads/main.zip)解压，进入项目目录，执行如下命令
 
 ```bash
 npm i -g tyarn
